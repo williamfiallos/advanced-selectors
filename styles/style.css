@@ -1,0 +1,21 @@
+#food-style>li {
+  background-color: blue;
+}
+
+ul em {
+  color: red;
+}
+
+#food-style>li + ul { 
+  /* "+" takes only the first one */
+  background-color: purple;
+}
+
+.the-one {
+  background-color: yellow;
+}
+.the-one + li {
+  /* ".the-one + li + li" skips the first
+   and acts on the second */
+  background-color: pink;
+}
